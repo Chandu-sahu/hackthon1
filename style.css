@@ -1,0 +1,95 @@
+body{
+    background-image: url("redwallpaper.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.a{
+    font-size: 100px;
+    text-align: center;
+    font-style: bold; 
+    margin-bottom: 20px;
+    font-weight: bold;
+  color: rgb(251, 251, 9);
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transform-style: preserve-3d;
+}
+
+.slider{
+    width: 60%;
+    height: 600px;
+    background-image: url("x\ man\ apo.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes changeImage{
+    0%{
+        background-image: url("endagemfinal.jpg");
+    }
+
+    25%{
+        background-image: url("venom-let-there-be-carnage.jpg");
+    }
+
+    50%{
+        background-image: url("thor\ big\ .jpg");
+    }
+
+    75%{
+        background-image: url("captain-marvel\ big.webp");
+    }
+
+    100%{
+        background-image: url("dr.strange.jpeg");
+    }
+
+}
+
+.b{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+
+}
+
+.image{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    size: 800px 1422px;
+}
+
+.image-name{
+    display: block;
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #c9d81f;
+    text-align: bottom;
+}
+
+
